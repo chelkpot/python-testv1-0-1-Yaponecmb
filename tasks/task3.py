@@ -4,9 +4,10 @@
 
 def solve():
 # Ниже пишите решение задачии(Обязательно поставьте четыре пробела после функции Solve())
-weight,height = map(float,input("Введите 2 числа ").split())
-bmi= weight/(height**2)
-print (bmi)
+    ves=float(input("Введите ваш вес в КГ: "))
+    rost=float(input("Введите ваш рост в Метрах: "))
+    BMI=ves/(rost**2)
+    print("Ваш BMI: ", BMI)
    
 
 # Код ниже не трогать! он нужен для тестов
